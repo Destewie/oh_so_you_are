@@ -1,16 +1,7 @@
 # oh_so_you_are
 
-A new Flutter project.
+Progetto dedicato dal profondo del cuore a Dale Carnegie.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Sei una di quelle persone che non fa fatica a ricordarsi i nomi? :)
+Ottimo, questa app è quello che fa per te!
+Potrai salvare comodamente tutti i nomi delle persone che incontrerai e, soprattutto, recuperarli velocemente in qualsiasi momento.
