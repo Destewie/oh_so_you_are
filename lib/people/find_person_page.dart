@@ -21,7 +21,7 @@ void updateFilter(
     String corporatura,
     String coloreCapelli,
     String taglioCapelli,
-    String Occhiali,
+    String occhiali,
     String stileVestiario,
     bool fumo,
     bool tatuaggi,
@@ -52,8 +52,8 @@ void updateFilter(
   if (taglioCapelli != DropdownItems.defaultValue) {
     filtroTemp['taglioCapelli'] = taglioCapelli;
   }
-  if (Occhiali != DropdownItems.defaultValue) {
-    filtroTemp['Occhiali'] = Occhiali;
+  if (occhiali != DropdownItems.defaultValue) {
+    filtroTemp['occhiali'] = occhiali;
   }
   if (stileVestiario != DropdownItems.defaultValue) {
     filtroTemp['stileVestiario'] = stileVestiario;
