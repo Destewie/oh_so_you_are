@@ -170,7 +170,6 @@ static Future<List<String>> getAllPlaces() async {
     return places;
   }
 
-
   //--------------------------------------------------------------------------------
 
   //funzione per aggiungere una persona alla lista

@@ -6,7 +6,6 @@ import '../other/utility.dart';
 class PeopleList extends StatefulWidget {
   const PeopleList({Key? key}) : super(key: key);
 
-
   @override
   State<PeopleList> createState() => _PeopleList();
 }
@@ -46,7 +45,6 @@ Future<List<Person>> filterPeople() async {
 class _PeopleList extends State<PeopleList> {
   int nPeople = 0;
 
-
   @override
   Widget build(BuildContext context) {
     //valuelistenablebuilder per aggiornare la lista quando cambiano i filtri in utility
@@ -84,10 +82,10 @@ class _PeopleList extends State<PeopleList> {
                             style: TextStyle(fontSize: 20),
                             textAlign: TextAlign.center);
                       } else if (snapshot.data!.isEmpty) {
-                        return Center(
+                        return const Center(
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
-                            children: const [
+                            children: [
                               Padding(
                                 padding: EdgeInsets.all(25.0),
                                 child: Text(

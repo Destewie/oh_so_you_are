@@ -32,7 +32,8 @@ class MyApp extends StatelessWidget {
         '/upload_from_file': (context) => const UploadFromFile(),
         '/modify_person': (context) => const ModifyPerson(),
       },
-      debugShowCheckedModeBanner: false,              //per togliere il banner di debug in alto a destra
+      debugShowCheckedModeBanner:
+          false, //per togliere il banner di debug in alto a destra
       theme: ThemeData(primarySwatch: Colors.red),
       home: const RootPage(),
     );
@@ -46,7 +47,6 @@ class RootPage extends StatefulWidget {
   @override
   State<RootPage> createState() => _RootPageState();
 }
-
 
 //lo "state" può essere inteso come tutte quelle cose che servono per ricostruire la pagina in qualsiasi momento
 class _RootPageState extends State<RootPage> {
@@ -73,14 +73,14 @@ class _RootPageState extends State<RootPage> {
           ),
         ],
       ),
-
       body: mainPages[currentMainPage],
-
       bottomNavigationBar: NavigationBar(
         destinations: const [
           NavigationDestination(icon: Icon(Icons.list), label: "Persone"),
-          NavigationDestination(icon: Icon(Icons.person_add_alt_1), label: "Aggiungi persona"),
-          NavigationDestination(icon: Icon(Icons.add_location_alt_rounded), label: "Luoghi"),
+          NavigationDestination(
+              icon: Icon(Icons.person_add_alt_1), label: "Aggiungi persona"),
+          NavigationDestination(
+              icon: Icon(Icons.add_location_alt_rounded), label: "Luoghi"),
         ],
         onDestinationSelected: (int index) {
           Utility.filter = {};
